@@ -92,16 +92,18 @@ class News extends Component {
       <div className="News">
         <Navbar />
 
-        <div class="ui centered top banner test ad">
+        <div class="ui centered top banner test ad" data-text="Billboard">
+          <div class="img"> 
           <Image class='img' src='https://static5.depositphotos.com/1052036/528/v/950/depositphotos_5284620-stock-illustration-couple-sharing-heart.jpg' />
         </div>
-
-        <div class="postn">
-          <Tab panes={panes} />
-        </div >
-        <br />
-        <Footer />
       </div>
+
+      <div class="postn">
+        <Tab panes={panes} />
+      </div >
+      <br />
+      <Footer />
+      </div >
     );
   }
 }
